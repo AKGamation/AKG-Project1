@@ -1,0 +1,7 @@
+0-20 Idle
+30-54 Walk
+70-86 Run
+100-115 Jump
+130-140 MaxJump
+160-170 hover
+180-222 StillLand

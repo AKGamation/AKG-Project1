@@ -1,0 +1,2111 @@
+fileFormatVersion: 2
+guid: 6fd83ac9af9b9a04ba623e950f55e896
+timeCreated: 1480143253
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: BaseCharacter
+    100004: //RootNode
+    100006: Chest
+    100008: Control
+    100010: Foot.L
+    100012: Foot.R
+    100014: Hand.L
+    100016: Hand.L_end
+    100018: Hand.R
+    100020: Hand.R_end
+    100022: Head
+    100024: Head_end
+    100026: Hips
+    100028: LegIK.L
+    100030: LegIK.L_end
+    100032: LegIK.R
+    100034: LegIK.R_end
+    100036: LegPoll.L
+    100038: LegPoll.L_end
+    100040: LegPoll.R
+    100042: LegPoll.R_end
+    100044: LowerArm.L
+    100046: LowerArm.R
+    100048: LowerLeg.L
+    100050: LowerLeg.R
+    100052: MidTorso
+    100054: Neck
+    100056: Sholder.L
+    100058: Sholder.R
+    100060: Toes.L
+    100062: Toes.L_end
+    100064: Toes.R
+    100066: Toes.R_end
+    100068: UpperArm.L
+    100070: UpperArm.R
+    100072: UpperLeg.L
+    100074: UpperLeg.R
+    100076: Armature.001
+    100078: Camera
+    100080: Chest 1
+    100082: Control 1
+    100084: Control_end
+    100086: Cube.001
+    100088: Cube.002
+    100090: Foot.L 1
+    100092: Foot.R 1
+    100094: Hand,L
+    100096: Hand,L_end
+    100098: Hand,R
+    100100: Hand,R_end
+    100102: Head 1
+    100104: Head_end 1
+    100106: Hips 1
+    100108: Lamp
+    100110: LowerArm.L 1
+    100112: LowerArm.R 1
+    100114: LowerLeg.L 1
+    100116: LowerLeg.R 1
+    100118: MidTorso 1
+    100120: Neck 1
+    100122: Sholder.L 1
+    100124: Sholder.R 1
+    100126: Toes.L 1
+    100128: Toes.L_end 1
+    100130: Toes.R 1
+    100132: Toes.R_end 1
+    100134: UpperArm.L 1
+    100136: UpperArm.R 1
+    100138: UpperLeg.L 1
+    100140: UpperLeg.R 1
+    400000: Armature
+    400002: BaseCharacter
+    400004: //RootNode
+    400006: Chest
+    400008: Control
+    400010: Foot.L
+    400012: Foot.R
+    400014: Hand.L
+    400016: Hand.L_end
+    400018: Hand.R
+    400020: Hand.R_end
+    400022: Head
+    400024: Head_end
+    400026: Hips
+    400028: LegIK.L
+    400030: LegIK.L_end
+    400032: LegIK.R
+    400034: LegIK.R_end
+    400036: LegPoll.L
+    400038: LegPoll.L_end
+    400040: LegPoll.R
+    400042: LegPoll.R_end
+    400044: LowerArm.L
+    400046: LowerArm.R
+    400048: LowerLeg.L
+    400050: LowerLeg.R
+    400052: MidTorso
+    400054: Neck
+    400056: Sholder.L
+    400058: Sholder.R
+    400060: Toes.L
+    400062: Toes.L_end
+    400064: Toes.R
+    400066: Toes.R_end
+    400068: UpperArm.L
+    400070: UpperArm.R
+    400072: UpperLeg.L
+    400074: UpperLeg.R
+    400076: Armature.001
+    400078: Camera
+    400080: Chest 1
+    400082: Control 1
+    400084: Control_end
+    400086: Cube.001
+    400088: Cube.002
+    400090: Foot.L 1
+    400092: Foot.R 1
+    400094: Hand,L
+    400096: Hand,L_end
+    400098: Hand,R
+    400100: Hand,R_end
+    400102: Head 1
+    400104: Head_end 1
+    400106: Hips 1
+    400108: Lamp
+    400110: LowerArm.L 1
+    400112: LowerArm.R 1
+    400114: LowerLeg.L 1
+    400116: LowerLeg.R 1
+    400118: MidTorso 1
+    400120: Neck 1
+    400122: Sholder.L 1
+    400124: Sholder.R 1
+    400126: Toes.L 1
+    400128: Toes.L_end 1
+    400130: Toes.R 1
+    400132: Toes.R_end 1
+    400134: UpperArm.L 1
+    400136: UpperArm.R 1
+    400138: UpperLeg.L 1
+    400140: UpperLeg.R 1
+    2300000: Cube.002
+    3300000: Cube.002
+    4300000: BaseCharacter
+    4300002: Cube.001
+    4300004: Cube.002
+    7400000: Ilde
+    7400002: Walk
+    7400004: Run
+    7400006: Jump
+    7400008: MaxJump
+    7400010: Hover
+    7400012: StillLand
+    7400014: Jog
+    7400016: WallRun_Left
+    7400018: WallRun_Right
+    7400020: WallRun_Vertical
+    7400022: jumpRun_Left
+    7400024: jumpRun_Right
+    7400026: runLand_Left
+    7400028: runLand_Right
+    7400030: runHover_Left
+    7400032: runHover_Right
+    7400034: rollLand
+    9500000: //RootNode
+    13700000: BaseCharacter
+    13700002: Cube.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Ilde
+      takeName: Armature|ArmatureAction
+      firstFrame: 1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/LegIK.L
+        weight: 1
+      - path: Armature/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/LegIK.R
+        weight: 1
+      - path: Armature/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/LegPoll.L
+        weight: 1
+      - path: Armature/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/LegPoll.R
+        weight: 1
+      - path: Armature/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Armature|ArmatureAction
+      firstFrame: 30
+      lastFrame: 57
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/LegIK.L
+        weight: 1
+      - path: Armature/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/LegIK.R
+        weight: 1
+      - path: Armature/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/LegPoll.L
+        weight: 1
+      - path: Armature/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/LegPoll.R
+        weight: 1
+      - path: Armature/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Armature|ArmatureAction
+      firstFrame: 100
+      lastFrame: 117
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/LegIK.L
+        weight: 1
+      - path: Armature/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/LegIK.R
+        weight: 1
+      - path: Armature/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/LegPoll.L
+        weight: 1
+      - path: Armature/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/LegPoll.R
+        weight: 1
+      - path: Armature/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Armature|ArmatureAction
+      firstFrame: 130
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/LegIK.L
+        weight: 1
+      - path: Armature/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/LegIK.R
+        weight: 1
+      - path: Armature/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/LegPoll.L
+        weight: 1
+      - path: Armature/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/LegPoll.R
+        weight: 1
+      - path: Armature/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MaxJump
+      takeName: Armature|ArmatureAction
+      firstFrame: 160
+      lastFrame: 170
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/LegIK.L
+        weight: 1
+      - path: Armature/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/LegIK.R
+        weight: 1
+      - path: Armature/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/LegPoll.L
+        weight: 1
+      - path: Armature/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/LegPoll.R
+        weight: 1
+      - path: Armature/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hover
+      takeName: Armature|ArmatureAction
+      firstFrame: 190
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/LegIK.L
+        weight: 1
+      - path: Armature/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/LegIK.R
+        weight: 1
+      - path: Armature/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/LegPoll.L
+        weight: 1
+      - path: Armature/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/LegPoll.R
+        weight: 1
+      - path: Armature/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: StillLand
+      takeName: Armature|ArmatureAction
+      firstFrame: 210
+      lastFrame: 252
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/LegIK.L
+        weight: 1
+      - path: Armature/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/LegIK.R
+        weight: 1
+      - path: Armature/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/LegPoll.L
+        weight: 1
+      - path: Armature/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/LegPoll.R
+        weight: 1
+      - path: Armature/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jog
+      takeName: Armature|ArmatureAction
+      firstFrame: 64
+      lastFrame: 87
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/LegIK.L
+        weight: 1
+      - path: Armature/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/LegIK.R
+        weight: 1
+      - path: Armature/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/LegPoll.L
+        weight: 1
+      - path: Armature/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/LegPoll.R
+        weight: 1
+      - path: Armature/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WallRun_Left
+      takeName: Armature|ArmatureAction
+      firstFrame: 330
+      lastFrame: 347
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Control/LegIK.L
+        weight: 1
+      - path: Armature/Control/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/Control/LegIK.R
+        weight: 1
+      - path: Armature/Control/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Control/LegPoll.L
+        weight: 1
+      - path: Armature/Control/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/Control/LegPoll.R
+        weight: 1
+      - path: Armature/Control/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WallRun_Right
+      takeName: Armature|ArmatureAction
+      firstFrame: 300
+      lastFrame: 317
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Control/LegIK.L
+        weight: 1
+      - path: Armature/Control/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/Control/LegIK.R
+        weight: 1
+      - path: Armature/Control/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Control/LegPoll.L
+        weight: 1
+      - path: Armature/Control/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/Control/LegPoll.R
+        weight: 1
+      - path: Armature/Control/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WallRun_Vertical
+      takeName: Armature|ArmatureAction
+      firstFrame: 360
+      lastFrame: 378
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Control/LegIK.L
+        weight: 1
+      - path: Armature/Control/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/Control/LegIK.R
+        weight: 1
+      - path: Armature/Control/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Control/LegPoll.L
+        weight: 1
+      - path: Armature/Control/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/Control/LegPoll.R
+        weight: 1
+      - path: Armature/Control/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jumpRun_Left
+      takeName: Armature|ArmatureAction
+      firstFrame: 480
+      lastFrame: 495
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Control/LegIK.L
+        weight: 1
+      - path: Armature/Control/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/Control/LegIK.R
+        weight: 1
+      - path: Armature/Control/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Control/LegPoll.L
+        weight: 1
+      - path: Armature/Control/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/Control/LegPoll.R
+        weight: 1
+      - path: Armature/Control/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: jumpRun_Right
+      takeName: Armature|ArmatureAction
+      firstFrame: 390
+      lastFrame: 405
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Control/LegIK.L
+        weight: 1
+      - path: Armature/Control/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/Control/LegIK.R
+        weight: 1
+      - path: Armature/Control/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Control/LegPoll.L
+        weight: 1
+      - path: Armature/Control/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/Control/LegPoll.R
+        weight: 1
+      - path: Armature/Control/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: runLand_Left
+      takeName: Armature|ArmatureAction
+      firstFrame: 505
+      lastFrame: 530
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Control/LegIK.L
+        weight: 1
+      - path: Armature/Control/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/Control/LegIK.R
+        weight: 1
+      - path: Armature/Control/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Control/LegPoll.L
+        weight: 1
+      - path: Armature/Control/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/Control/LegPoll.R
+        weight: 1
+      - path: Armature/Control/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: runLand_Right
+      takeName: Armature|ArmatureAction
+      firstFrame: 415
+      lastFrame: 440
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Control/LegIK.L
+        weight: 1
+      - path: Armature/Control/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/Control/LegIK.R
+        weight: 1
+      - path: Armature/Control/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Control/LegPoll.L
+        weight: 1
+      - path: Armature/Control/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/Control/LegPoll.R
+        weight: 1
+      - path: Armature/Control/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: runHover_Left
+      takeName: Armature|ArmatureAction
+      firstFrame: 495
+      lastFrame: 505
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Control/LegIK.L
+        weight: 1
+      - path: Armature/Control/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/Control/LegIK.R
+        weight: 1
+      - path: Armature/Control/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Control/LegPoll.L
+        weight: 1
+      - path: Armature/Control/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/Control/LegPoll.R
+        weight: 1
+      - path: Armature/Control/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: runHover_Right
+      takeName: Armature|ArmatureAction
+      firstFrame: 405
+      lastFrame: 415
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Control/LegIK.L
+        weight: 1
+      - path: Armature/Control/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/Control/LegIK.R
+        weight: 1
+      - path: Armature/Control/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Control/LegPoll.L
+        weight: 1
+      - path: Armature/Control/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/Control/LegPoll.R
+        weight: 1
+      - path: Armature/Control/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rollLand
+      takeName: Armature|ArmatureAction
+      firstFrame: 540
+      lastFrame: 574
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Control
+        weight: 1
+      - path: Armature/Control/Hips
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: Armature/Control/Hips/MidTorso/Chest/Sholder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.L/LowerLeg.L/Foot.L/Toes.L/Toes.L_end
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R
+        weight: 1
+      - path: Armature/Control/Hips/UpperLeg.R/LowerLeg.R/Foot.R/Toes.R/Toes.R_end
+        weight: 1
+      - path: Armature/Control/LegIK.L
+        weight: 1
+      - path: Armature/Control/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/Control/LegIK.R
+        weight: 1
+      - path: Armature/Control/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Control/LegPoll.L
+        weight: 1
+      - path: Armature/Control/LegPoll.L/LegPoll.L_end
+        weight: 1
+      - path: Armature/Control/LegPoll.R
+        weight: 1
+      - path: Armature/Control/LegPoll.R/LegPoll.R_end
+        weight: 1
+      - path: BaseCharacter
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
